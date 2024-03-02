@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "lunar-implement-416003",
+  "private_key_id": "e8c27798b38e600e726cf8a4d6205d614d7bc426",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCz419IbGsTNKjW\nCMxBA1om6PcokKKFsWLckvgOGLIJmV2eXR6yUWKSnHNcHBF2Yzf1xwZgfs7s2ocI\nUaQV/3QvRBFkjs5On2E6kmuYeS1JZWjkUUwoP5RAMw/jCSmw+UjraVzOf2V9XqQy\n7RJELQfvyN4JsPYMd7O+xTpVxpVxfZX9vrvFbWgcnmTq5qt3dSz4qVaclb0hwbnd\nRTkzg2mCNCuctYCAgUs956RfvN8PUCw51rmLWEr1zNWsghCKka7uyV+4eq26W1rM\nLzqSsPiDsCmcxQshi+RjMqrpZF3Ws1FtYG4IyfXusnhzLnBM8x1N4Tbu1NjY86w8\n3nQk1E43AgMBAAECggEAEfylNV+p4TS9wREGI2YLaKKYvBSiO43+HaIQbZBolO8h\n3kjfXeMnYROFsWsZD+Zh3RB2gcWMOUCsiddn+c8eNe+vcYeZ92CWXz3uxkMvlQwv\nzcyXOdsJntW8O+5Zndl/QhK59eflJQEGmBT+Y5TBG2fRU9S+9YYukd+0soj1vnAu\nEkj582SKCoFPco7XHpPyj2O+fQT+j2qfTNm/+FpKkoS8lUCbBcN4Dy9J+4UYLyK8\nD00jqwDQa5LnPm2J0HxShrTmav+TWi5Tt/HGNFwikaeGnX4913KBi4U4QHIPfLTN\nohVJyoqGFXx/8jjf4cNyafv1F+7JsP/T00pL49fB4QKBgQDwi5cjyu+Tk2nI+Eea\nm2RDPRZLvFSTrlN6rULqeqH/zHLx3tIX5rHadoKogU3tImGtjpUJYqRuq9m1p7Lq\nBO+wgqBjb165JDaeQtOVqbO8qRwKDCc7uYOoZ3QY1xMGqAKsPh4XJtdStPjXAGC8\neGhcSXXG2wE4byqNWUfFrDcYhwKBgQC/ch0dX+1Oz6C+9MI86OqLc/5SnEy97M1E\nP2Yq2wOZQsVw00oGQdB2kv5FyhOyvyY8BVXO7/+11SsnJ6olO1zirzhLZfqyTQY6\n05p05IW7w66jfYTLeQ0oLQQT+rWqNPfjddrHtkx3FJbsT1ap/+57lHsZquZanEcd\nmGGzbVZ40QKBgAWFLpLDtXvNhj/2cq45orNoU3qpd8dr2L6X+1EmP1F/f6PNWUTz\nJmG9FoKHdSJcB6HUA9eTS/K+PuDMWG7Gbjm+xa+CfsoA6r/3CKQGoPlTaDFS1hOo\nzjyvIxru1KDyeh05z7b4TTi4rn1ApPeuS7bSeMF3hS+mXXOg+OSwbxNBAoGBAK4/\nrSRJZXMwI7zqhchurtwSzU5fmLHdUM9nbRRgl5vtXEve5Cdhy93A2NKopNkyhhhn\nOrzJUNMtnMNcpM6Sg26H0RM/VLjoxlzQsGrofJhz+QYxfqa8HS+OGYId1S+AWoeb\ng2/3Cw3vnZakd9rvaR7t/EVWeafLSiczxOlNAUGhAoGAbJna7orKCJX2jWf4x76q\nIiVLvnooAeVO4AuFnjih6cQ5UUQZ9DMb1jJG9oGRphScnDDPvO+iAFdy3UmW2Qmw\nSr/rAuz6/3CSa0bw/TdXMsCrtcCXcb5+bclnVdwya44uNC94sHNkPRL7El8zy1ZM\nidKxrZIt4EToiM0zTR2who8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "hackathon2024account@lunar-implement-416003.iam.gserviceaccount.com",
+  "client_id": "111708313261708805109",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hackathon2024account%40lunar-implement-416003.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

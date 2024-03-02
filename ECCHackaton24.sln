@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{F8C6BA9F-716F-432F-9423-2041CC867A27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{22955CE0-DE51-4D25-84EE-3B677F860E0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{0EC9901B-62F9-40F2-8840-32230EDA7621}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ImageFinder", "ImageFinder", "{DA2E3FC6-7849-4275-889E-6EB911270E9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECCHackaton24.Feature.ImageFinder", "src\Feature\ImageFinder\Code\ECCHackaton24.Feature.ImageFinder.csproj", "{69C001F2-CC64-4BA5-A6DE-5009384EAD04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{D3D3BACC-7F69-4050-99FF-D7652B29A5A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{EC80BB27-32BD-4CE3-8A21-8A538BDF0226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECCHackaton24.Project.Website", "src\Project\Website\Code\ECCHackaton24.Project.Website.csproj", "{C7BDBFFB-A71F-476D-B3FD-D41BF3792418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECCHackaton24.Foundation.Serialization", "src\Foundation\Serialization\Code\ECCHackaton24.Foundation.Serialization.csproj", "{368126D5-0A88-45B4-AD9A-33CA73356B67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{CBC738F1-5143-40EC-B987-FE6EB182F1C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECCHackaton24.Website", "src\Website\Code\ECCHackaton24.Website.csproj", "{A0599BFA-F9A4-4326-9448-C0EC1405F0D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{77821D1B-41CB-4415-828A-37EA1045A95D}"
+	ProjectSection(SolutionItems) = preProject
+		publishsettings.targets = publishsettings.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceManager", "ServiceManager", "{111BEBB2-C451-4510-8FC5-3D878CAD1F96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECCHackaton24.Foundation.ServiceManager", "src\Foundation\ServiceManager\Code\ECCHackaton24.Foundation.ServiceManager.csproj", "{98DE9881-ECE9-4B33-B638-6898E82D01B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69C001F2-CC64-4BA5-A6DE-5009384EAD04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C001F2-CC64-4BA5-A6DE-5009384EAD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C001F2-CC64-4BA5-A6DE-5009384EAD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C001F2-CC64-4BA5-A6DE-5009384EAD04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7BDBFFB-A71F-476D-B3FD-D41BF3792418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7BDBFFB-A71F-476D-B3FD-D41BF3792418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7BDBFFB-A71F-476D-B3FD-D41BF3792418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7BDBFFB-A71F-476D-B3FD-D41BF3792418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368126D5-0A88-45B4-AD9A-33CA73356B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368126D5-0A88-45B4-AD9A-33CA73356B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368126D5-0A88-45B4-AD9A-33CA73356B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368126D5-0A88-45B4-AD9A-33CA73356B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0599BFA-F9A4-4326-9448-C0EC1405F0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0599BFA-F9A4-4326-9448-C0EC1405F0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0599BFA-F9A4-4326-9448-C0EC1405F0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0599BFA-F9A4-4326-9448-C0EC1405F0D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98DE9881-ECE9-4B33-B638-6898E82D01B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98DE9881-ECE9-4B33-B638-6898E82D01B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98DE9881-ECE9-4B33-B638-6898E82D01B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98DE9881-ECE9-4B33-B638-6898E82D01B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA2E3FC6-7849-4275-889E-6EB911270E9A} = {F8C6BA9F-716F-432F-9423-2041CC867A27}
+		{69C001F2-CC64-4BA5-A6DE-5009384EAD04} = {DA2E3FC6-7849-4275-889E-6EB911270E9A}
+		{D3D3BACC-7F69-4050-99FF-D7652B29A5A4} = {22955CE0-DE51-4D25-84EE-3B677F860E0E}
+		{EC80BB27-32BD-4CE3-8A21-8A538BDF0226} = {0EC9901B-62F9-40F2-8840-32230EDA7621}
+		{C7BDBFFB-A71F-476D-B3FD-D41BF3792418} = {EC80BB27-32BD-4CE3-8A21-8A538BDF0226}
+		{368126D5-0A88-45B4-AD9A-33CA73356B67} = {D3D3BACC-7F69-4050-99FF-D7652B29A5A4}
+		{A0599BFA-F9A4-4326-9448-C0EC1405F0D1} = {CBC738F1-5143-40EC-B987-FE6EB182F1C4}
+		{111BEBB2-C451-4510-8FC5-3D878CAD1F96} = {22955CE0-DE51-4D25-84EE-3B677F860E0E}
+		{98DE9881-ECE9-4B33-B638-6898E82D01B1} = {111BEBB2-C451-4510-8FC5-3D878CAD1F96}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DCDDC0D-E298-4720-B3FB-77DCB216B772}
+	EndGlobalSection
+EndGlobal
