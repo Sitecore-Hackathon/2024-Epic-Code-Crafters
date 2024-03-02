@@ -14,16 +14,19 @@ namespace ECCHackaton24.Foundation.ServiceManager.ComputedFields
 {
     public class ImageDescriptionAI : AbstractComputedIndexField
     {
+        /// <summary>
+        /// Compute field to generate and index the Image Tags in Solr
+        /// </summary>
+        /// <param name="indexable"></param>
+        /// <returns></returns>
         public override object ComputeFieldValue(IIndexable indexable)
         {
             Item item = indexable as SitecoreIndexableItem;
             ID imageTemplate = new ID("{DAF085E8-602E-43A6-8299-038FF171349F}");
             try
             {
-                if (item != null &&
-                    new List<ID> { imageTemplate }.Contains(item.TemplateID))
+                if (item != null && new List<ID> { imageTemplate }.Contains(item.TemplateID))
                 {
-
                     string imageUrl = MediaItemToBase64Converter.ConvertMediaItemToBase64(item);                    
 
                     var labels = BaseRepository.GetImageLabels(imageUrl).GetAwaiter().GetResult();
