@@ -4,26 +4,23 @@ using Sitecore.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Web;
 
 namespace ECCHackaton24.Feature.ImageFinder.Models
 {
-    public class ImageDescription: SearchResultItem
+    public class ImageDescription
     {
-        [IndexField("_templatename")]
-        public string _TemplateName { get; set; }
-
-        [IndexField("_template")]
-        public ID _TemplateID { get; set; }
-
         [IndexField("_fullpath")]
-        public string _FullPath { get; set; }
+        public virtual string Path { get; set; }
 
-        [IndexField("_path")]
-        public IEnumerable<string> _Path { get; set; }
+        [IndexField("_group")]       
+        public virtual ID ItemId { get; set; }
 
-        [IndexField("ImageDescriptionAI")]
+        [IndexField("_template")]        
+        public virtual ID TemplateId { get; set; }
+
+        [IndexField("imageDescriptionAI")]
         public string _ImageDescriptionAI { get; set; }
-
     }
 }

@@ -1,20 +1,9 @@
-﻿using Sitecore.Configuration;
+﻿using ECCHackaton24.Feature.ImageFinder.Repositories;
+using Sitecore.Configuration;
 using Sitecore.Data;
 using Sitecore.Data.Items;
-using Sitecore.Diagnostics;
-using Sitecore.SecurityModel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using Sitecore.Publishing.Pipelines.Publish;
-using Sitecore.Publishing.Pipelines.PublishItem;
 using Sitecore.Data.Managers;
-using System.Web.Mvc;
-using Azure.AI.Vision.ImageAnalysis;
-using Azure;
-using ECCHackaton24.Feature.ImageFinder.Repositories;
-using System.Threading.Tasks;
+using System;
 using System.Text;
 
 namespace ECCHackaton24.Feature.ImageFinder.ProcessingEvents

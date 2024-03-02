@@ -1,22 +1,16 @@
-﻿using ECCHackaton24.Foundation.ServiceManager;
+﻿using ECCHackaton24.Feature.ImageFinder.Models;
+using ECCHackaton24.Foundation.ServiceManager.Repository;
+using Newtonsoft.Json;
+using Sitecore.ContentSearch.Linq;
+using Sitecore.ContentSearch.Linq.Utilities;
+using Sitecore.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
-using Azure;
-using Azure.AI.Vision.ImageAnalysis;
-using Sitecore.Data;
-using Sitecore.Diagnostics;
-using System.Reflection;
-using ECCHackaton24.Foundation.ServiceManager.Repository;
-using Sitecore.ContentSearch.Linq;
-using Sitecore.ContentSearch.Linq.Utilities;
-using ECCHackaton24.Feature.ImageFinder.Models;
-using System.Net.Http.Headers;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
 
 namespace ECCHackaton24.Feature.ImageFinder.Repositories
 {
@@ -93,7 +87,7 @@ namespace ECCHackaton24.Feature.ImageFinder.Repositories
         }
 
 
-        public IEnumerable<ImageDescription> SearchImage(string searchKeywords)
+        public IEnumerable<ImageDescription> SearchMediaLibraryImage(string searchKeywords)
         {
             using (var context = Index.CreateSearchContext())
             {

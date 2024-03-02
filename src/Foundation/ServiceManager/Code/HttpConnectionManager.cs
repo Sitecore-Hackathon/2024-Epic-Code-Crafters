@@ -9,16 +9,6 @@ namespace ECCHackaton24.Foundation.ServiceManager
 {
     public static class HttpConnectionManager
     {
-        public static string GetImageData (string path)
-        {
-            var client = new ImageAnnotatorClientBuilder
-            {
-                CredentialsPath = path
-            }.Build();
-
-            return "";
-        }
-
         public static Uri CreateEndpoint(string url)
         {
             Uri baseApiUri = null;

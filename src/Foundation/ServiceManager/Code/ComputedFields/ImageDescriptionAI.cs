@@ -24,11 +24,7 @@ namespace ECCHackaton24.Foundation.ServiceManager.ComputedFields
                     new List<ID> { imageTemplate }.Contains(item.TemplateID))
                 {
 
-                    //string imageUrl = "https://xp0.sc/-/media/Images/812311";
-
-                    string imageUrl = MediaItemToBase64Converter.ConvertMediaItemToBase64(item);
-                    
-                    /*string imageUrl = "https://elements-video-cover-images-0.imgix.net/files/9aa4fccd-e239-4eb5-b814-18dfd4d7047e/inline_image_preview.jpg?auto=compress&h=630&w=1200&fit=crop&crop=edges&fm=jpeg&s=0864dace99cddf289b33a5c8a8c635d9";*/
+                    string imageUrl = MediaItemToBase64Converter.ConvertMediaItemToBase64(item);                    
 
                     var labels = BaseRepository.GetImageLabels(imageUrl).GetAwaiter().GetResult();
 
@@ -39,7 +35,7 @@ namespace ECCHackaton24.Foundation.ServiceManager.ComputedFields
                         foreach (var labelAnnotation in response.LabelAnnotations)
                         {
                             concatenatedDescriptions.Append(labelAnnotation.Description);
-                            concatenatedDescriptions.Append(", "); // Puedes ajustar este delimitador según tus necesidades
+                            concatenatedDescriptions.Append(", ");
                         }
                     }
                     if (concatenatedDescriptions.Length >= 2)
