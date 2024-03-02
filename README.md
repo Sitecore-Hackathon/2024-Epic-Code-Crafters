@@ -33,17 +33,5 @@ This feature leverages a **RESTful** service to interact with the Google Cloud V
 
 ## Phases
 
-```mermaid
-graph TB
+![image](https://github.com/Sitecore-Hackathon/2024-Epic-Code-Crafters/assets/128874476/adb78e1f-480f-429a-a2b2-daac6b1720b1)
 
-subgraph Search page
-G[User goes to Search engine] -- Enters keyword <br/>into search bar  --> H[Frontend fetches images<br/>according to seach query]  --> I[Images are shown on the <br/>interface alongside its labels]
-end
-
-subgraph Sitecore implementation
-A[User publishes image] -- Sitecore uploads it <br/>and sends the url to GCV API --> 
-B[GCV service scans the image <br/>and generates all labels] -- GCV returns the labels <br/>back to sitecore
---> E[Sitecore updates the <br/>image with the labels] 
--->F[Image is shown <br/>in Media Gallery]
-end
-```
