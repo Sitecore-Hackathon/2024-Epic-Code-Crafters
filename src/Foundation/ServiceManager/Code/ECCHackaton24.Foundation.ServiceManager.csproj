@@ -276,6 +276,7 @@
     <Compile Include="ComputedFields\Testfield.cs" />
     <Compile Include="ComputedFields\ImageDescriptionAI.cs" />
     <Compile Include="HttpConnectionManager.cs" />
+    <Compile Include="MediaItemToBase64Converter.cs" />
     <Compile Include="Models\ImageResponseModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\BaseRepository.cs" />

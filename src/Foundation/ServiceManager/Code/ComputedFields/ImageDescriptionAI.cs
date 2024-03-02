@@ -23,7 +23,14 @@ namespace ECCHackaton24.Foundation.ServiceManager.ComputedFields
                 if (item != null &&
                     new List<ID> { imageTemplate }.Contains(item.TemplateID))
                 {
-                    var labels = BaseRepository.GetImageLabels().GetAwaiter().GetResult();
+
+                    //string imageUrl = "https://xp0.sc/-/media/Images/812311";
+
+                    string imageUrl = MediaItemToBase64Converter.ConvertMediaItemToBase64(item);
+                    
+                    /*string imageUrl = "https://elements-video-cover-images-0.imgix.net/files/9aa4fccd-e239-4eb5-b814-18dfd4d7047e/inline_image_preview.jpg?auto=compress&h=630&w=1200&fit=crop&crop=edges&fm=jpeg&s=0864dace99cddf289b33a5c8a8c635d9";*/
+
+                    var labels = BaseRepository.GetImageLabels(imageUrl).GetAwaiter().GetResult();
 
                     StringBuilder concatenatedDescriptions = new StringBuilder();
 

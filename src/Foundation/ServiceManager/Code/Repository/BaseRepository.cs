@@ -26,7 +26,7 @@ namespace ECCHackaton24.Foundation.ServiceManager.Repository
             return Index;
         }
 
-        public static async Task<ApiResponse> GetImageLabels()
+        public static async Task<ApiResponse> GetImageLabels(string imageUrl)
         {
             // URL del API que deseas llamar
             string apiUrl = "https://vision.googleapis.com/v1/images:annotate?key=AIzaSyA_Uphvled0XrKtqKtRhy2u6iXRcUkGcdc";
@@ -36,7 +36,7 @@ namespace ECCHackaton24.Foundation.ServiceManager.Repository
 
             // Parámetros y datos que deseas enviar
             string keyParameter = "AIzaSyA_Uphvled0XrKtqKtRhy2u6iXRcUkGcdc";
-            string jsonData = "{\"requests\": [{\"image\": {\"source\": {\"imageUri\": \"https://elements-video-cover-images-0.imgix.net/files/9aa4fccd-e239-4eb5-b814-18dfd4d7047e/inline_image_preview.jpg?auto=compress&h=630&w=1200&fit=crop&crop=edges&fm=jpeg&s=0864dace99cddf289b33a5c8a8c635d9\"}},\"features\":[{\"type\": \"LABEL_DETECTION\"}]}]}";
+            string jsonData = "{\"requests\": [{\"image\": {\"content\": \"" + imageUrl + "\"},\"features\":[{\"type\": \"LABEL_DETECTION\"}]}]}";
 
             try
             {
