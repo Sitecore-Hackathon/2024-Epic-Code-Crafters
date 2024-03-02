@@ -1,15 +1,16 @@
 ![Hackathon Logo](docs/images/hackathon.png?raw=true "Hackathon Logo")
 # Sitecore Hackathon 2024
 
-- MUST READ: **[Submission requirements](SUBMISSION_REQUIREMENTS.md)**
-- [Entry form template](ENTRYFORM.md)
-  
-### ⟹ [Insert your documentation here](ENTRYFORM.md) <<
-
 # AI Media Library Search
 
-## Summary
-AI Media Library Search enables users to upload images using Sitecore media library, once the user publishes the image, it utilizes AI through the Google Cloud Vision API to generate descriptive labels for the published image. This allows the user to dynamically upload images alongside useful information that can later be used for example as alternative text when inserting the image into a website, also improving accessibility and readability of the site. 
+## Team name
+⟹ Epic Code Crafters
+
+## Category
+⟹ Best use of AI
+
+## Description
+AI Media Library Search enables users to upload images using Sitecore media library, once the user publishes the image, it utilizes AI through the Google Cloud Vision API to generate descriptive labels for the published image. This allows the user to dynamically upload images alongside useful information that can later be used for example as alternative text when inserting the image into a website, also improving accessibility and readability of the site.
 
 In addition to that, a custom search engine was built to provide the user with the possibility of quickly retrieving all images that match the chosen keyword with the AI-generated labels.
 
