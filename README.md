@@ -77,11 +77,15 @@ Download the code
 	https://{your domain}/ImageFinder/SearchMediaLibraryImage?searchKeywords=sky 
 
 
+
 ## Usage instructions
 
 1. Setup a GET request
 2. Enter the endpoint
 3. Add a searchKeywords param
 4. Click send
+
+   ![image](https://github.com/Sitecore-Hackathon/2024-Epic-Code-Crafters/assets/106611133/90447e17-f0bb-4f7a-bf60-26120c952eac)
+
 
 You can use the search Enpoint from any client like Postman or directly from the Browser
