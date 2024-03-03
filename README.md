@@ -35,11 +35,11 @@ This feature leverages a **RESTful** service to interact with the Google Cloud V
 
 ## Functionality Overview
 
--  **Image Upload**: Users can upload images directly within the Sitecore Media Library interface.
-
--  **Google Cloud Vision Integration**: Once the user publishes the image, Sitecore will upload the image and then the url will be sent to Google Cloud Vision API to analyze the content of the uploaded image.
+-  **Google Cloud Vision Integration**: Once the user rebuild the index in Sitecore, each item of the media library will connect to Google Cloud Vision API to generate a set of tags that describes each image.
 
 -  **Label Generation**: Upon image analysis, the Google Cloud Vision API generates descriptive labels that characterize the visual elements depicted in the image.
+
+-  **Solr Indexing**: Every tag is stored in Solr for searching purposes.
 
 -  **Dynamic image labelling**: After Google Cloud Vision is done generating the labels, they are returned back to Sitecore to automatically add them to its corresponding image.
 
