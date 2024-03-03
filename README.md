@@ -15,9 +15,6 @@ AI Media Library Search allows users to upload images using the Sitecore media l
 Google Cloud Vision
 Google Cloud Vision AI is a powerful artificial intelligence tool that allows extracting valuable information from images and videos through pre-trained APIs, AutoML, or custom models. That's why we have selected it to help us achieve our goal of making life easier for content editors when searching for images within the extensive media library.
 
-Implementation of Google Cloud Vision
-This feature leverages a RESTful service to interact with the Google Cloud Vision service, which analyzes the content of the image and returns a list of tags describing the content of each of the images in the media library. We send the information of each of the items in the media library that corresponds to the image template to the Google Cloud Vision API; the AI returns the information of the tags, which we then proceed to assign to each of the images. Everything is done under the hood, without the user having to worry about avoiding the process thanks to our Sitecore implementation, as it is executed automatically when publishing the uploaded image. To achieve this connection, it is necessary to have a Google Cloud account, generate an authentication json file that we will later use to create an access token. This token has a limited validity period, so it must be updated periodically for the connection to the API to work.
-
 As a next step, content editors will have access to a API, that will allow them to search within the media library, only by entering the keyword or keywords of what they need in the image. The search process will be executed, resulting in a list with all the images that meet the given conditions. This way they can access the GUID of the image they are looking for more quickly.
 
 Function Summary
