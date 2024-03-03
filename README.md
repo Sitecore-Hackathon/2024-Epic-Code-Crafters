@@ -68,14 +68,15 @@ https://youtu.be/i13qb_8-xyI
 
 ## Installation instructions
 
-Download the code
-2. Setup the computed field “imageDescriptionAI” into the main solr.config file.
-3. Make sure Solr is up and running
-4. Open the CM Launchpad
-5. Open the Control Panel
-6. Populate Solr managed schema
-7. Rebuild the web index
-8. You can start searching for tag images in the following URL:
+1. Download the code
+2. Publish the code in a sitecore instance
+3. Setup the computed field “imageDescriptionAI” into the main solr.config file.
+4. Make sure Solr is up and running
+5. Open the CM Launchpad
+6. Open the Control Panel
+7. Populate Solr managed schema
+8. Rebuild the web index
+9. You can start searching for tag images in the following URL:
 
 	https://{your domain}/ImageFinder/SearchMediaLibraryImage?searchKeywords=sky 
 
