@@ -41,6 +41,9 @@ This feature leverages a **RESTful** service to interact with the Google Cloud V
 
 -  **Solr Indexing**: Every tag is stored in Solr for searching purposes.
 
+  ![image](https://github.com/Sitecore-Hackathon/2024-Epic-Code-Crafters/assets/106611133/552fd5ff-5376-48f7-bd80-13d32f474710)
+
+
 -  **Dynamic image labelling**: After Google Cloud Vision is done generating the labels, they are returned back to Sitecore to automatically add them to its corresponding image.
 
 -  **Accessibility and Insights**: The generated labels provide valuable insights into the content of the image, enhancing accessibility and facilitating content management within the Sitecore platform.
